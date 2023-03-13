@@ -20,3 +20,25 @@ HTTP/2 requires HTTPS (HTTP Secure) encryption for all connections. This means t
 In conclusion, HTTP/2 is a more efficient and faster protocol than HTTP/1.1. It offers features such as multiplexing, header compression, server push, binary protocol, and enhanced security, which make it an attractive option for web developers.
 
 
+
+Objects and Its Internal Representation in JavaScript
+
+JavaScript is an object-oriented programming language, and objects are an essential part of its syntax. An object is a collection of properties that are used to store data or functions. In this blog post, we will explore the internal representation of objects in JavaScript.
+
+JavaScript objects are stored in memory as key-value pairs. Each object has a unique memory address, which is used to access the object. When an object is created, JavaScript allocates memory to store its properties and methods.
+
+Objects in JavaScript are dynamic, which means that they can be modified at runtime. Properties can be added, deleted, or changed at any time. This is possible because objects are stored in memory as a reference, rather than a value.
+
+The reference to an object is stored in a variable or passed as an argument to a function. When the reference is accessed, JavaScript looks up the memory address of the object and retrieves its properties and methods. This means that changes to the object are reflected in all references to that object.
+
+JavaScript objects are created using the object literal notation, which is a set of curly braces containing one or more key-value pairs. For example, the following code creates an object with two properties:
+
+const person = {
+  name: "vasanth",
+  age: 22
+}
+In this code, person is an object with two properties, name and age. The name property has a value of "vasanth", and the age property has a value of 22.
+
+JavaScript also provides a constructor function for creating objects. This function is used to create a blueprint for an object and can be used to create multiple objects with the same properties and methods.
+
+In conclusion, objects are an essential part of JavaScript and are used to store data and functions. They are stored in memory as key-value pairs and can be modified at runtime
