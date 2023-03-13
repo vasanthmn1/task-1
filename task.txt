@@ -1,0 +1,22 @@
+Difference between HTTP1.1 vs HTTP2
+
+HTTP (Hypertext Transfer Protocol) is the foundation of communication on the World Wide Web. It is a protocol that governs the way that data is exchanged between web servers and clients. HTTP/1.1 has been in use for many years, but it has recently been replaced by HTTP/2. Here are some of the key differences between the two protocols.
+
+Multiplexing
+HTTP/1.1 uses a single connection for each request and response. This means that each connection can only handle one request at a time. On the other hand, HTTP/2 allows multiple requests to be sent and received on the same connection, making it more efficient and faster.
+
+Header Compression
+HTTP/1.1 sends headers with each request and response. These headers can be quite large, especially when sending data over a slow connection. HTTP/2 uses header compression, which reduces the size of the headers, making the transfer faster and more efficient.
+
+Server Push
+HTTP/2 allows the server to push content to the client before the client requests it. This can greatly improve page load times, as the server can send important resources before the client requests them.
+
+Binary Protocol
+HTTP/1.1 uses text-based protocols, which can be inefficient when transferring large amounts of data. HTTP/2 uses a binary protocol, which is more efficient and faster.
+
+Security
+HTTP/2 requires HTTPS (HTTP Secure) encryption for all connections. This means that all data exchanged between the server and client is encrypted, making it more secure.
+
+In conclusion, HTTP/2 is a more efficient and faster protocol than HTTP/1.1. It offers features such as multiplexing, header compression, server push, binary protocol, and enhanced security, which make it an attractive option for web developers.
+
+
